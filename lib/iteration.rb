@@ -25,8 +25,8 @@ def total_even_pairs(src)
   counter = 0
   evenTotal = 0
 while counter < src.length do
-    if src[counter][0] &&  % 2 == 0 
-    evenTotal += src[counter][0]
+    if src[counter][0]  % 2 == 0 && src[counter][1] % 2 == 0 
+    evenTotal += src[counter][0] + src[counter][1]
 end
   counter += 1
 end
