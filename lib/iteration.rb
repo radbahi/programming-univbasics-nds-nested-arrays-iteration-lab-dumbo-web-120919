@@ -26,7 +26,7 @@ def total_even_pairs(src)
   evenTotal = 0
 while counter < src.length do
   elementCounter = 0
-  while src[counter][elementCounter] % 2 == 0 do
+  while elementCounter < src[counter].length % 2 == 0 do
     evenTotal += src[counter][elementCounter]
     elementCounter += 1
 end
