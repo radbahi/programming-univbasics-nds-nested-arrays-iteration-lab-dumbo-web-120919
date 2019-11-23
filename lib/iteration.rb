@@ -29,6 +29,7 @@ while counter < src.length do
   while elementCounter < src[counter].length do
     if src[counter][elementCounter] % 2 == 0 
     evenTotal += src[counter][elementCounter]
+  end
     elementCounter += 1
 end
   counter += 1
